@@ -1,0 +1,203 @@
+\documentclass[9pt]{cvitae}
+
+\begin{document}
+%% To change the main color, you can set the \maincolor variable in the cls to one of the colors from the Open Color palette: https://yeun.github.io/open-color/ %%
+
+%%% YOUR DATA %%%
+% Name and Surname
+\newcommand{\name}{Jane}
+\newcommand{\surname}{Doe}
+% Address
+\newcommand{\address}{Chicago, IL 60614, USA}
+% Phone number
+\newcommand{\phone}{(+1) 555 1234567}
+% Email
+\newcommand{\email}{jane.doe@example.com}
+% Birthday
+\newcommand{\birthday}{Born February 17, 1992}
+% Website - here the website is github, if you want to change the icon you can do so in the cls file
+\newcommand{\website}{\href{https://github.com/janedoe}{github.com/janedoe}}
+% Description
+\newcommand{\whoami}{
+    Passionate and results-driven Data Analyst with over 5 years of experience in transforming complex datasets into actionable insights. Skilled in leveraging Python, SQL, and Tableau to drive data-informed decision-making and optimize business strategies. Known for a collaborative mindset, analytical rigor, and a commitment to continuous learning, with a proven record of enhancing data processes and visualization to support strategic goals. Currently seeking opportunities to apply my expertise to contribute to impactful projects within a dynamic, forward-thinking organization.
+}
+
+% Command to generate the info box - SPECIFY THE PROFILE PIC HERE
+\introduction{\name\ \surname}{profile.jpeg}{\address}{\phone}{\email}{\birthday}{\website}{\whoami}
+
+% Start of the sections
+\cvsect{Education}
+
+\begin{entrylist}
+
+    \entry
+        {May 2024}
+        {Ph.D. in Data Science}
+        {University of Chicago}
+        {}
+        
+    \entry
+        {Sep 2021 -- Apr 2024}
+        {Master's Degree \\ Data Analytics}
+        {University of Illinois at Chicago}
+        {Thesis: \textit{Predictive Modeling for Customer Behavior Analysis}\\
+        Advisors: J. Smith, A. Johnson\\
+        Final Grade: 4.0/4.0}
+
+    \entry
+        {Jun 2023 -- Aug 2023}
+        {Summer Research Program}
+        {Massachusetts Institute of Technology}
+        {Conducted research on machine learning algorithms for data classification. Collaborated with a team to develop a predictive model and present findings at the annual research symposium.}
+
+    \entry
+        {Sep 2018 -- May 2021}
+        {Bachelor's Degree \\ Computer Science}
+        {Illinois State University}
+        {Thesis: \textit{Development of a Real-Time Data Processing System}\\
+        Advisor: L. Turner\\
+        Final Grade: 3.9/4.0}
+
+    \entry
+        {Sep 2014 -- Jun 2018}
+        {High School Diploma}
+        {Lincoln Park High School}
+        {Project: Design and implementation of a mobile app for local community service events.}        
+\end{entrylist}
+
+\cvsect{Research Experience}
+
+\begin{entrylist}
+    \entry
+        {Jun 2022 -- Aug 2022}
+        {Research Intern}
+        {Data Science Research Lab - Chicago, IL, USA}
+        {Assisted in developing machine learning models for analyzing urban traffic patterns. Conducted exploratory data analysis and visualizations to present findings to the research team.\\
+        \texttt{Python}\slashsep\texttt{Tableau}}
+
+    \entry
+        {Jan 2021 -- May 2021}
+        {Undergraduate Researcher}
+        {Illinois State University - Normal, IL, USA}
+        {Conducted research on the impact of social media on consumer behavior. Collected and analyzed survey data, presenting findings at the university's annual research conference.\\
+        \texttt{R}\slashsep\texttt{Excel}}
+
+    \entry
+        {Nov 2018 -- Feb 2019}
+        {Research Assistant}
+        {University of Illinois - Urbana-Champaign, IL, USA}
+        {Collaborated with professors to analyze survey data for a public health research study. Cleaned and prepared datasets for statistical analysis, generating insights that helped refine study hypotheses.\\
+        \texttt{SPSS}\slashsep\texttt{Excel}}
+\end{entrylist}
+
+\cvsect{Work Experience}
+
+\begin{entrylist}
+    \entry
+    {Sep 2022 -- Jan 2024}   
+    {Data Analyst}
+    {Tech Innovations Inc. - Chicago, IL, USA}
+    {Led data analysis projects to enhance operational efficiency and inform strategic decisions. Developed predictive models and utilized machine learning techniques to analyze large datasets, resulting in a 20% improvement in forecasting accuracy. Collaborated with cross-functional teams to communicate insights and recommendations effectively.\\
+    \texttt{Python}\slashsep\texttt{R}\slashsep\texttt{SQL}}
+
+    \entry
+        {Sep 2021 -- Jul 2022}   
+        {Data Analyst}
+        {Insight Analytics Ltd - Chicago, IL, USA}
+        {Analyzed and visualized sales data to identify trends and provide actionable insights for stakeholders. Developed dashboards to monitor KPIs, streamline reporting, and support data-driven decision-making. Optimized data workflows for increased efficiency, saving 15\% in data processing time.\\
+        \texttt{Python}\slashsep\texttt{Tableau}\slashsep\texttt{SQL}}
+
+    \entry
+        {May 2020 -- Aug 2021}
+        {Junior Data Analyst}
+        {BrightData Solutions - Springfield, IL, USA}
+        {Performed data cleaning, transformation, and analysis on customer datasets to improve segmentation and targeting strategies. Assisted in the creation of reports on customer retention and churn patterns, contributing to a 10\% increase in customer retention.\\
+        \texttt{R}\slashsep\texttt{Excel}\slashsep\texttt{Power BI}}
+
+    \entry
+        {Sep 2019 -- Mar 2020}
+        {Data Analyst Intern}
+        {Green Insights Corp - Peoria, IL, USA}
+        {Supported senior analysts in compiling and analyzing environmental data for renewable energy initiatives. Conducted data validation and quality checks to ensure accuracy in research findings. Assisted in developing a prototype dashboard for tracking key environmental metrics.\\
+        \texttt{Excel}\slashsep\texttt{SQL}\slashsep\texttt{R}}
+\end{entrylist}
+
+\cvsect{Skills}
+
+\textbf{Technical Skills:} \vspace{5pt}
+\begin{multicols}{2}
+    \begin{itemize}
+        \item Python: Proficient
+        \item SQL: Proficient
+        \item Tableau: Good
+        \item R: Good
+        \item Microsoft Excel: Proficient
+        \item Power BI: Good
+    \end{itemize}
+\end{multicols}
+
+\textbf{Language Skills:} \vspace{5pt}
+\begin{itemize}
+    \item English: Fluent
+    \item Spanish: Basic
+\end{itemize}
+
+\cvsect{Certificates}
+
+\begin{entrylist}
+    \centry
+        {2023}
+        {Certified Data Scientist - Data Science Council}
+        {}
+        {}
+
+    \centry
+        {2022}
+        {Tableau Desktop Specialist - Tableau}
+        {}
+        {}
+
+    \centry
+        {2021}
+        {SQL Fundamentals - DataCamp}
+        {}
+        {}
+        
+    \centry
+        {2020}
+        {Google Data Analytics Professional Certificate - Coursera}
+        {}
+        {}
+\end{entrylist}
+
+\cvsect{Publications}
+
+\begin{entrylist}
+    \pentry
+    {2024}
+    {Visualization Techniques for Big Data: A Review}
+    {in preparation}
+    {\textbf{J. Doe}, R. White}
+
+    \pentry
+        {Aug 2024}
+        {Predictive Modeling of Customer Churn in E-Commerce}
+        {submitted to Journal of Business Analytics}
+        {\textbf{J. Doe}, A. Smith, L. Turner}
+
+    \pentry
+        {Dec 2023}
+        {A Comparative Study of Machine Learning Algorithms for Data Classification}
+        {published at International Journal of Data Science}
+        {\textbf{J. Doe}, M. Brown}
+\end{entrylist}
+
+
+% Privacy authorization
+\vfill
+\footnotesize
+\begin{center}
+    \textit{I authorize the processing of my personal data included in the CV in accordance with Article 13 of Legislative Decree No. 196 of June 30, 2003 - “Code on the Protection of Personal Data” and Article 13 of GDPR 679/16 - “General Data Protection Regulation.”}
+\end{center}
+
+\end{document}
